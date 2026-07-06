@@ -10,10 +10,26 @@
         <title>Registration</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h3>Registration Form</h3>
-        <p>Please fill out the form below to register:</p>
+        <hr>
+        <p>Please fill out the form below to register...</p>
+        <form>
+        <label for="name">Name:</label>
+        <input id = "name"type="text" placeholder="Enter your name" required><br>
+        <label for="pswd">Password:</label>
+        <input id = "pswd"type="password" placeholder = "Enter your password"><br>
+        <label for="mail">Email:</label>
+        <input id = "mail" type = "email" placeholder = "Enter your email"><br>
+        <label for = "gend">Male</label>
+        <input id = "gend" type = "radio" name = "gender" value = "male"><br>
+        <label for = "gend">Female</label>
+        <input id = "gend" type = "radio" name = "gender" value = "female"><br>
+        <label>Please accept</label>
+        <input type = "checkbox" value="">
+        <button disabled>Register Now</button>
+    </form>
     </body>
 </html>

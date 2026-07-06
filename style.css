@@ -1,9 +1,9 @@
-h2 {
+h2  {
             color: rgb(231, 122, 19);
         }
 
         p {
-            color: rgb(14, 152, 33);
+            color: rgba(0, 13, 2, 0.843);
         }
 
         #head-2 {
@@ -13,4 +13,36 @@ h2 {
         .theme-color {
             color: rgb(31, 213, 245);
             text-align: center;
+        }
+
+        .card{
+            border: 3px solid rgb(43, 0, 255);
+            padding: 15px;
+            margin: 15px;
+            width:350px;
+            border-radius: 10px;
+            background-color:aquamarine;
+        }
+
+        img{
+            width: 250px;
+            height:250px;
+            border-radius:100%;
+        }
+
+        h3{
+            font-family: "Geist Pixel", sans-serif;
+            font-weight:700px;
+        }
+
+        p{
+            font-family: "Montenegrin Gothic One", serif;
+            line-height: 25px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+            margin: 20px auto;
         }
