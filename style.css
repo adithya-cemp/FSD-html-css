@@ -46,3 +46,77 @@ h2  {
             padding: 6px;
             margin: 20px auto;
         }
+
+        /*css positioning  */
+        .parent{
+            width:500px;
+            height:500px;
+            background-color:darkseagreen;
+            position:relative;
+        }
+
+        .child-1{
+            width:100px;
+            height:100px;
+            background-color:rgb(255, 0, 0);
+            position:absolute;
+            z-index: 2;
+            right: 0;
+        }
+
+        .child-2{
+            width:100px;
+            height:100px;
+            background-color:rgb(49, 16, 234);
+            position:absolute;
+            z-index: 1;
+            bottom: 0;
+        }
+
+        /* flexbox */
+        .home{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+
+
+
+        .card-1{
+            width: 200px;
+            height: 100px;
+            background-color:aqua;
+        }
+        .card-2{
+            width: 200px;
+            height: 100px;
+            background-color:rgb(228, 16, 161);
+        }
+        .card-3{
+            width: 200px;
+            height: 100px;
+            background-color:rgb(13, 241, 47);
+        }
+
+        /* nav menu */
+        header{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(47, 87, 87);
+            nav{
+                display: flex;
+                a{
+                    text-decoration: none;
+                    color: rgb(246, 243, 243);
+                    padding: 10px 20px;
+                    display: block;
+                    transition: 0.5s ease-in-out;
+                    &:hover{
+                        background: green;
+                        color:rgb(252, 6, 55);
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
